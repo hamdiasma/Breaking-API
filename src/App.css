@@ -1,8 +1,23 @@
-*{
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+html,
+body {
+  background: #000 url("./assets/unnamed.jpg") no-repeat center center/cover;
 
-body{
-
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  color: #fff;
+}
+.center {
+  margin: 20px auto;
+  text-align: center;
+}
+.header-text h3 {
+  padding: 10px;
+  text-shadow: 0 4px 4px #ccc;
+  font-size: 30px;
 }
