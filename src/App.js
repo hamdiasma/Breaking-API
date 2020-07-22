@@ -4,6 +4,7 @@ import Header from "./components/ui/Header";
 import CaracterGrid from "./components/caracters/CaracterGrid";
 import "./App.css";
 import Pagination from "./components/pagination/Pagination";
+import SepItemPage from "./components/pagination/SepItemPage";
 
 const App = () => {
   const [items, setItems] = useState([]);
@@ -42,6 +43,7 @@ const App = () => {
         setPerItems={setPerItems}
         goToPage={goToPage}
       />
+      <SepItemPage setSetPerItems={setSetPerItems}/>
     </div>
   );
 };
