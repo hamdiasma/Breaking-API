@@ -73,6 +73,12 @@ body {
   list-style: none;
   padding-bottom: 10px;
 }
+
+.my-pagination{
+  margin-top: 30px;
+  text-align: center !important;
+}
+
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);

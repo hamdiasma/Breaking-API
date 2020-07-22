@@ -34,12 +34,14 @@ const App = () => {
   return (
     <div className="container">
       <Header />
+
+      <CaracterGrid items={currentPostsPage} isLoading={isLoading} />
+
       <Pagination
         totalItems={items.length}
         setPerItems={setPerItems}
         goToPage={goToPage}
       />
-      <CaracterGrid items={currentPostsPage} isLoading={isLoading} />
     </div>
   );
 };
