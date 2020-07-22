@@ -69,16 +69,22 @@ body {
   padding: 20px;
   transform: rotateY(180deg);
 }
-.card li{
+.card li {
   list-style: none;
   padding-bottom: 10px;
 }
-
-.my-pagination{
-  margin-top: 30px;
-  text-align: center !important;
+.pagin-body {
+  margin: 70px 0 10px;
+  display: flex;
+  align-content: space-between;
+}
+.my-pagination {
+  width: 100%;
 }
 
+.custom-select {
+  width: 70px !important;
+}
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);

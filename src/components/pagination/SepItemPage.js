@@ -6,8 +6,8 @@ const SepItemPage = ({setSetPerItems}) => {
     }
 
     return (
-    <select class="custom-select" onChange={handelchange}>
-      <option selected value="8">
+    <select className="custom-select" onChange={handelchange}>
+      <option selected defaultValue="8">
         8
       </option>
       <option value="16">16</option>

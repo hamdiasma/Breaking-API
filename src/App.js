@@ -35,15 +35,16 @@ const App = () => {
   return (
     <div className="container">
       <Header />
-
-      <CaracterGrid items={currentPostsPage} isLoading={isLoading} />
-
+      <div className="pagin-body">
       <Pagination
         totalItems={items.length}
         setPerItems={setPerItems}
         goToPage={goToPage}
       />
-      <SepItemPage setSetPerItems={setSetPerItems}/>
+      <SepItemPage setSetPerItems={setSetPerItems} />
+      </div>
+ 
+      <CaracterGrid items={currentPostsPage} isLoading={isLoading} />
     </div>
   );
 };
